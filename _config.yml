@@ -43,7 +43,7 @@ exclude: ['node_modules']
 # Googles
 google-verify:
 google-analytics: false
-google-analytics-id: UA-xxxxxxxx
+google-analytics-id: UA-50387096-11
 google-maps-javascript-api-key:
 
 # Manifest
