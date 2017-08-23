@@ -51,8 +51,11 @@
   {% include schema-article.html %}
   {% endif %}
 
+  {% if site.google-verify %}
   <!-- Google verification -->
-  {% if site.google-verify %}<meta name="google-site-verification" content="{{ site.google-verify }}">{% endif %}
+  <meta name="google-site-verification" content="{{ site.google-verify }}">
+  <!-- End Google verification -->
+  {% endif %}
 
 </head>
 
