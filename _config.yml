@@ -1,8 +1,8 @@
 # Site settings
 title: Refinition
 email:
-url: https://refinition.com/
-enforce_ssl: refinition.com/
+url: https://refinition.com
+enforce_ssl: refinition.com
 description:
 baseurl:
 logo: "logo.jpg"
