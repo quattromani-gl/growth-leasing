@@ -1,11 +1,11 @@
 # Site settings
-title: Monocle
+title: Refinition
 email:
 url: https://refinition.com/
 enforce_ssl: refinition.com/
 description:
 baseurl:
-logo: "logo.svg"
+logo: "logo.jpg"
 version: 0.0.1
 url: ""
 author: "Max Quattromani"
