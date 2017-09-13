@@ -1,10 +1,10 @@
 # Site settings
 title: Monocle
 email:
-url: https://quattromani.github.io/
-enforce_ssl: quattromani.github.io//
+url: https://refinition.com/
+enforce_ssl: refinition.com/
 description:
-baseurl: /monocle
+baseurl:
 logo: "logo.svg"
 version: 0.0.1
 url: ""
