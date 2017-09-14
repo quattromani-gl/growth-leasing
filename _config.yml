@@ -20,6 +20,10 @@ fontawesome-id: 4aa71f0649
 # Included Plugins (previously gems)
 plugins: [jekyll-admin, jekyll-paginate]
 
+# Collections
+collections:
+  - slides
+
 # Writing
 markdown: kramdown
 kramdown:

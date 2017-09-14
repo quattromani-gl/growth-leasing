@@ -1,12 +1,19 @@
 ---
-layout: landing
+layout: default
 title: Home
 permalink: "/"
 class: home
 description: {{ site.description }}
 ---
 
-<main role="main">
-
-
-</main>
+<ul>
+  {% for slide in site.slides %}
+  <li>
+    <header>
+      {{ slide.title }}
+    </header>
+    {{ slide.description }}
+    {{ slide.content }}
+  </li>
+  {% endfor %}
+</ul>
