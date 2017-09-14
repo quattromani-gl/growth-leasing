@@ -6,14 +6,24 @@ class: home
 description: {{ site.description }}
 ---
 
-<ul>
+<div id="fullpage" class="slides">
+  <div class="section">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <a itemprop="url" href="{{ site.baseurl }}/">
+        <img itemprop="logo" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="{{ site.title }} logo">
+      </a>
+    </div>
+  </div>
   {% for slide in site.slides %}
-  <li>
-    <header>
-      {{ slide.title }}
-    </header>
-    {{ slide.description }}
-    {{ slide.content }}
-  </li>
+  <div id="{{ slide.section }}" class="section">
+    <section>
+      <header>
+        <h2 class="strike">{{ slide.title }}</h2>
+      </header>
+      <article>
+        {{ slide.content }}
+      </article>
+    </section>
+  </div>
   {% endfor %}
 </ul>

@@ -14,7 +14,7 @@ $p-last-of-type-margin-bottom: 0;
 $modular-scale-ratio: 1.61803398875;
 
 // Google Fonts
-// $google-fonts-url: 'https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Federo';
+$google-fonts-url: 'https://fonts.googleapis.com/css?family=Montserrat:400,600,800';
 
 // Font Families List
 $font-faces: (
@@ -24,8 +24,8 @@ $font-faces: (
 $font-path: '';
 
 // Font Families
-$base-font-family: sans-serif;
-$base-font-family-alt: serif;
+$base-font-family: 'Montserrat', sans-serif;;
+$base-font-family-alt: $base-font-family;
 $fontawesome: 'FontAwesome';
 $pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;
 

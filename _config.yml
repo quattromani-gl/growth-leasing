@@ -3,11 +3,10 @@ title: Refinition
 email:
 url: https://refinition.com
 enforce_ssl: refinition.com
-description:
+description: The date of intent. We identify individuals at key physical locations with specificity previously only available to online visitors.
 baseurl:
 logo: "logo.jpg"
 version: 0.0.1
-url: ""
 author: "Max Quattromani"
 
 # Build settings
@@ -46,7 +45,7 @@ exclude: ['node_modules']
 
 # Googles
 google-verify:
-google-analytics: false
+google-analytics: true
 google-analytics-id: UA-50387096-11
 google-maps-javascript-api-key:
 

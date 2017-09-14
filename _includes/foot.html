@@ -1,16 +1,27 @@
 
-  <script src="https://code.jquery.com/jquery-{{site.jquery-version}}.min.js" integrity="{{site.jquery-integrity}}" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-{{site.jquery-version}}.min.js"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-{{site.jquery-version}}.min.js" integrity="{{site.jquery-integrity}}" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-{{site.jquery-version}}.min.js"><\/script>')</script>
 
-  <script src="https://use.fontawesome.com/{{site.fontawesome-id}}.js" async></script>
-  <script src="{{ site.baseurl }}/js/production.min.js" async></script>
+<script src="https://use.fontawesome.com/{{site.fontawesome-id}}.js" async></script>
+<script src="{{ site.baseurl }}/js/production.min.js" async></script>
 
-  {% if site.google-analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
+<script src="{{ site.baseurl }}/js/vendor/jquery.fullPage.js"></script>
 
-  {% if site.social.disqus %}
-  {% include disqus.html %}
-  {% endif %}
+<script>
+  $(window).ready(function() {
+    if ($(window).width() > mediumBreakPoint) {
+      $('#fullpage').fullpage();
+    }
+    $('.slides').css('visibility', 'visible');
+  });
+</script>
+
+{% if site.google-analytics %}
+{% include google-analytics.html %}
+{% endif %}
+
+{% if site.social.disqus %}
+{% include disqus.html %}
+{% endif %}
 </body>
 </html>
