@@ -1,0 +1,29 @@
+---
+layout: default
+title: Home
+permalink: "/slides/"
+class: home
+description: {{ site.description }}
+---
+
+<div id="fullpage" class="slides">
+  <div class="section">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <a itemprop="url" href="{{ site.baseurl }}/">
+        <img itemprop="logo" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="{{ site.title }} logo">
+      </a>
+    </div>
+  </div>
+  {% for slide in site.slides %}
+  <div id="{{ slide.section }}" class="section">
+    <section>
+      <header>
+        <h2 class="strike">{{ slide.title }}</h2>
+      </header>
+      <article>
+        {{ slide.content }}
+      </article>
+    </section>
+  </div>
+  {% endfor %}
+</ul>
