@@ -5,7 +5,7 @@ url: https://refinition.com
 enforce_ssl: refinition.com
 description: The date of intent. We identify individuals at key physical locations with specificity previously only available to online visitors.
 baseurl:
-logo: "logo.jpg"
+logo: "logo.png"
 version: 0.0.1
 author: "Max Quattromani"
 

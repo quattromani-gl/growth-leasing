@@ -15,7 +15,7 @@ description: {{ site.description }}
     </div>
   </div>
   {% for slide in site.slides %}
-  <div id="{{ slide.section }}" class="section">
+  <div id="{{ slide.section }}" class="section {{ slide.section }}">
     <section>
       <header>
         <h2 class="strike">{{ slide.title }}</h2>
