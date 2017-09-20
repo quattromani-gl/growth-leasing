@@ -7,15 +7,6 @@
 
 <script src="{{ site.baseurl }}/js/vendor/jquery.fullPage.js"></script>
 
-<script>
-  $(function() {
-    if ($(window).width() > mediumBreakPoint) {
-      $('#fullpage').fullpage();
-    }
-    $('.slides').css('visibility', 'visible');
-  });
-</script>
-
 {% if site.google-analytics %}
 {% include google-analytics.html %}
 {% endif %}
