@@ -7,13 +7,6 @@ description: {{ site.description }}
 ---
 
 <div id="fullpage" class="slides">
-  <div class="section">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <a itemprop="url" href="{{ site.baseurl }}/">
-        <img itemprop="logo" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="{{ site.title }} logo">
-      </a>
-    </div>
-  </div>
   {% for slide in site.slides %}
   <div id="{{ slide.section }}" class="section {{ slide.section }}">
     <section>

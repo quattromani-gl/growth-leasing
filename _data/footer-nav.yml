@@ -1,7 +1,3 @@
 # Add that trailing slash to avoid redirect
-# - title: Terms
-#   url: /terms-and-conditions/
-# - title: Privacy
-#   url: /privacy-policy/
-# - title: Sitemap
-#   url: /sitemap/
+- title: Sitemap
+  url: /sitemap/

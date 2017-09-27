@@ -1,1 +1,34 @@
 // Nav
+$outer-wrapper-bg: $color-white;
+
+$nav-alignment: left;
+$nav-positioning: null;
+$nav-bg: transparent;
+$nav-mobile-bg: $color-white;
+$nav-bg-hover: null;
+$nav-font-family: $base-font-family;
+$nav-font-size: 18;
+$nav-font-size-mobile: 18;
+$nav-font-weight: 500;
+$nav-text-transform: none;
+$nav-letter-spacing: .03em;
+$nav-color: $color-brand-primary;
+$nav-color-hover: $nav-color;
+$nav-border-bottom: $nav-color;
+$nav-dropdown-font-size: 20;
+$nav-dropdown-bg: rgba($nav-color, .75);
+$nav-dropdown-color: $color-white;
+$nav-dropdown-bg-hover: $color-white;
+$nav-dropdown-color-hover: $nav-color;
+$nav-dropdown-border-color: $color-light-grey;
+$nav-dropdown-border-color-hover: null;
+$nav-hamburger-bg: null;
+$nav-hamburger-color: $color-brand-quaternary;
+$nav-off-canvas-side: right; // left, right, down
+$nav-hamburger-side: right; // if off-canvas, this should match off-canvas side
+$nav-off-canvas-width: 80%;
+$nav-off-canvas-width-tablet: $nav-off-canvas-width;
+$nav-off-canvas-width-mobile: $nav-off-canvas-width;
+$nav-off-canvas-bg: $color-dark-grey;
+$nav-off-canvas-menu-bg: #1a969b;
+// Nav

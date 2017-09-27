@@ -1,8 +1,8 @@
 // Horizontal Rule
 $hr-margin: $base-spacing;
 
-$hr-color-top: $color-dark-grey;
-$hr-color-bottom: lighten($color-brand-primary, 70%);
+$hr-color-top: $color-light-grey;
+$hr-color-bottom: lighten($hr-color-top, 70%);
 
 $hr-strike-font-size: 20;
 $hr-strike-stroke-color: currentColor;

@@ -63,4 +63,9 @@
   <a href="#content" class="skip-navigation visually-hidden">Skip to main content</a>
   {% include browser-upgrade.html %}
 
-  <main id="content" role="main">
+  <div class="outer-wrapper">
+    <div class="inner-wrapper">
+
+  {% include header.html %}
+
+  <main id="content" role="main" class="{{ page.class }}">

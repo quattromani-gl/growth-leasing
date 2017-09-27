@@ -7,8 +7,14 @@ description:
 categories:
 ---
 
-<form method="POST" action="http://formspree.io/{{ site.formspree-verify }}">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
+<h1>Let's Chat</h1>
+<h2>Fill this out so we can learn more about you and your needs.</h2>
+
+<hr>
+
+<br><br>
+<form method="POST" action="http://formspree.io/{{ site.formspree-verify }}" autocomplete="on">
+  <p>My name is <input type="text" name="fullName" id="fullName" placeholder="Full Name" value=""> and I'm with <input type="text" name="organization" id="organization" placeholder="Company Name" value="">. I want a website that will <input type="text" name="goal" id="context" placeholder="Website Goals" value="">. Please contact me at <input type="text" id="email" name="email" placeholder="Email Address" value=""> to discuss.</p>
+  <br><br>
   <button type="submit">Send</button>
 </form>
