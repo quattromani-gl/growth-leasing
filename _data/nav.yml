@@ -1,18 +1,18 @@
 # Add that trailing slash to avoid redirect
-- title: Exchanges
-  url: /exchanges/
-  aria-label:
-  sublinks:
-    - title: "Retail"
-      url: "/exchanges/retail/"
-    - title: "Cannabis"
-      url: "/exchanges/cannabis/"
-    - title: "Automotive"
-      url: "/exchanges/automotive/"
-    - title: "Golf"
-      url: "/exchanges/golf/"
-- title: Terms
-  url: /terms-and-conditions/
+# - title: Exchanges
+#   url: /exchanges/
+#   aria-label:
+#   sublinks:
+#     - title: "Retail"
+#       url: "/exchanges/retail/"
+#     - title: "Cannabis"
+#       url: "/exchanges/cannabis/"
+#     - title: "Automotive"
+#       url: "/exchanges/automotive/"
+#     - title: "Golf"
+#       url: "/exchanges/golf/"
+# - title: Terms
+#   url: /terms-and-conditions/
 
 - title: Privacy
   url: /privacy-policy/
