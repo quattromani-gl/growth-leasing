@@ -8,16 +8,29 @@ categories:
 ---
 
 <h1>Let's Chat</h1>
-<h2>Fill this out so we can learn more about you and your needs.</h2>
 
 <hr>
 
-<br><br>
 <form method="POST" action="https://formspree.io/{{ site.formspree-verify }}" autocomplete="on">
-  <p>My name is <input type="text" name="fullName" id="fullName" placeholder="Name" value=""> and I'm with <input type="text" name="organization" id="organization" placeholder="Company" value="">. I want a website that will <input type="text" name="goal" id="context" placeholder="Website Goals" value="">. Please contact me at <input type="text" id="email" name="email" placeholder="Email Address" value=""> to discuss.</p>
-  <br><br>
+  <label for="fullName" class="visually-hidden">Name</label>
+  <input type="text" name="fullName" id="fullName" placeholder="Name" value="" tabindex="1">
+
+  <label for="organization" class="visually-hidden">Company</label>
+  <input type="text" name="organization" id="organization" placeholder="Company" value="" tabindex="2">
+
+  <label for="email" class="visually-hidden">Email</label>
+  <input type="email" id="email" name="email" placeholder="Email Address" value="" tabindex="3">
+
+  <label for="phone" class="visually-hidden">Phone</label>
+  <input type="tel" name="phone" id="phone" placeholder="Phone" value="" tabindex="4">
+
+  <label for="message" class="visually-hidden">Message</label>
+  <textarea name="message" id="message" placeholder="Leave us a message" tabindex="6"></textarea>
+
   <input type="text" name="_gotcha" style="display:none">
 
+  <br><br>
+
   <!-- Submit it -->
-  <button class="btn read-more" type="submit" value="submit">Send</button>
+  <button class="btn read-more" type="submit" value="submit">Submit</button>
 </form>
