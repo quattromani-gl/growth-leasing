@@ -16,7 +16,7 @@
     <url>
       <loc>http://localhost:4000/privacy-policy/</loc>
       
-        <lastmod>2017-10-26T08:49:29-06:00</lastmod>
+        <lastmod>2017-10-26T15:50:18-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -27,21 +27,6 @@
     </url>
     
   
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/slides/</loc>
-      
-        <lastmod>2017-10-26T08:49:29-06:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
     
   
     
@@ -90,7 +75,7 @@
     <url>
       <loc>http://localhost:4000/terms-and-conditions/</loc>
       
-        <lastmod>2017-10-26T08:49:29-06:00</lastmod>
+        <lastmod>2017-10-26T15:50:18-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -105,7 +90,7 @@
     <url>
       <loc>http://localhost:4000/thanks/</loc>
       
-        <lastmod>2017-10-26T08:49:29-06:00</lastmod>
+        <lastmod>2017-10-26T15:50:18-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -120,7 +105,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2017-10-26T08:49:29-06:00</lastmod>
+        <lastmod>2017-10-26T15:50:18-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -135,7 +120,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2017-10-26T08:49:29-06:00</lastmod>
+        <lastmod>2017-10-26T15:50:18-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -152,7 +137,7 @@
     <url>
       <loc>http://localhost:4000/contact/</loc>
       
-        <lastmod>2017-10-26T08:49:29-06:00</lastmod>
+        <lastmod>2017-10-26T15:50:18-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -167,7 +152,7 @@
     <url>
       <loc>http://localhost:4000/exchanges/</loc>
       
-        <lastmod>2017-10-26T08:49:29-06:00</lastmod>
+        <lastmod>2017-10-26T15:50:18-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
