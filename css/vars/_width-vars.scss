@@ -3,20 +3,6 @@ $pad: $base-spacing;
 
 // Grid settings
 $grid-columns: 12;
-$max-width: 1250px;
-
-// Breakpoints
-$desktop: new-breakpoint(min-width 1670px 12);
-$mid: new-breakpoint(min-width 1400px max-width 1710px);
-$tablet: new-breakpoint(max-width 1399px 8);
-$mobile: new-breakpoint(max-width 750px 4);
-
-
-// Neat Pad
-$pad: $base-spacing;
-
-// Grid settings
-$grid-columns: 12;
 $max-width: 1260px;
 $extra-wide-width: 1440px;
 
