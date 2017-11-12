@@ -1,0 +1,108 @@
+---
+title: Exchanges
+permalink: "/exchanges/data-fresh-daily/"
+class: exchanges
+parent: Exchanges
+description:
+categories:
+---
+
+<h1>Data Fresh Daily / Retail Exchange</h1>
+
+<hr>
+
+<p>Unlock eye-opening insights that inform better marketing decisions on a remarkably fast platform that gives you the power to address every retail challenge.</p>
+
+<p>Whether related to increasing share of market vs. competition, building loyalty based audiences or sales conversion, leverage our refined data exchange to quickly and cost-effectively identify trends.</p>
+
+<ul class="bulleted">
+  <li>18,172 brick &amp; mortar retail locations and 234 premium shopping districts in the United States</li>
+  <li>Visitors to date (May – September ‘17):  27,287,312</li>
+  <li>Visitor frequency to date (May – September ’17):  153,407,970</li>
+  <li>Average visitor frequency</li>
+</ul>
+
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+
+<ul class="charts">
+  <li>
+    <div id="piechart" style="width: 380px; height: 300px;"></div>
+  </li>
+  <li>
+    <div id="columnchart_values" style="width: 380px; height: 300px;"></div>
+  </li>
+  <li>
+    <div id="chart_div" style="width: 380px; height: 300px;"></div>
+  </li>
+</ul>
+
+<script>
+  google.charts.load('current', {'packages':['corechart', 'bar']});
+  google.charts.setOnLoadCallback(drawPieChart);
+  google.charts.setOnLoadCallback(drawColumnChart);
+  google.charts.setOnLoadCallback(drawDualX);
+
+  function drawPieChart() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['Visits', 'Frequency'],
+      ['1x',  24],
+      ['2x',  20],
+      ['3x',  17],
+      ['4 - 7x',  39]
+      ]);
+
+    var options = {
+      title: 'Visitor Frequency',
+      'is3D':true,
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+    chart.draw(data, options);
+  }
+
+  function drawColumnChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Range', 'Perc', { role: 'style' } ],
+      ["18 - 29", 14, '#284ec0'],
+      ["30 - 44", 28, '#346df1'],
+      ["45 - 54", 26, '#284ec0' ],
+      ["55 - 69", 33, '#346df1']
+      ]);
+
+    var options = {
+      title: "Age Distribution",
+      bar: {groupWidth: "95%"},
+      legend: { position: "none" }
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+    chart.draw(data, options);
+  }
+
+  function drawDualX() {
+    var data = google.visualization.arrayToDataTable([
+      ['Income', '', { role: 'style' }],
+      ['200k+', '11%', '#284ec0'],
+      ['150k - 199.9k', '8%', '#346df1'],
+      ['100k - 149.9k', '24%', '#284ec0'],
+      ['75k - 99.9k', '24%', '#346df1'],
+      ['50k - 75k', '33%', '#284ec0']
+      ]);
+
+    var materialOptions = {
+      bars: 'horizontal',
+      series: {
+        0: {axis: 'Income'}
+      },
+      axes: {
+        x: {
+          Income: {label: 'Household Income', side: 'top'}
+        }
+      },
+      legend: { position: "none" }
+    };
+    var materialChart = new google.charts.Bar(document.getElementById('chart_div'));
+    materialChart.draw(data, materialOptions);
+  }
+</script>
