@@ -1,12 +1,12 @@
 # Add that trailing slash to avoid redirect
-# - title: Exchanges
-#   url: /exchanges/
-#   aria-label:
-#   sublinks:
-#     - title: "Retail"
-#       url: "/exchanges/retail/"
-#     - title: "Cannabis"
-#       url: "/exchanges/cannabis/"
+- title: Exchanges
+  url: /exchanges/
+  aria-label:
+  sublinks:
+    - title: "Retail"
+      url: "retail/"
+    - title: "Cannabis"
+      url: "cannabis/"
 #     - title: "Automotive"
 #       url: "/exchanges/automotive/"
 #     - title: "Golf"

@@ -12,9 +12,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/exchanges/data-fresh-daily/</loc>
+      <loc>http://localhost:4000/exchanges/retail/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -29,7 +29,7 @@
     <url>
       <loc>http://localhost:4000/exchanges/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -46,7 +46,7 @@
     <url>
       <loc>http://localhost:4000/privacy-policy/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -105,7 +105,7 @@
     <url>
       <loc>http://localhost:4000/terms-and-conditions/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -120,7 +120,7 @@
     <url>
       <loc>http://localhost:4000/thanks/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -135,7 +135,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -150,7 +150,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -167,7 +167,7 @@
     <url>
       <loc>http://localhost:4000/contact/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -182,7 +182,7 @@
     <url>
       <loc>http://localhost:4000/exchanges/cannabis/</loc>
       
-        <lastmod>2017-11-13T09:37:34-07:00</lastmod>
+        <lastmod>2017-11-14T08:51:43-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
