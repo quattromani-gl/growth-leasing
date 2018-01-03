@@ -1,9 +1,9 @@
 # Site settings
-title: Refinition
-email: hello@refinition.com
-url: https://refinition.com
-enforce_ssl: refinition.com
-description: Building haystacks of just the needles
+title: Growth Leasing
+email: hello@growthleasing.com
+url: https://growthleasing.com
+enforce_ssl: growthleasing.com
+description:
 baseurl:
 logo: "logo.png"
 version: 0.0.1
@@ -45,8 +45,8 @@ exclude: ['node_modules']
 
 # Googles
 google-verify:
-google-analytics: true
-google-analytics-id: UA-50387096-11
+google-analytics: false
+google-analytics-id: UA-50387096-12
 google-maps-javascript-api-key:
 
 # Manifest

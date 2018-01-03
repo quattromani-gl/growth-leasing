@@ -10,6 +10,12 @@
 
 <script src="{{ site.baseurl }}/js/vendor/jquery.fullPage.js" async></script>
 
+<script>
+$(function() {
+   $('video').bind('contextmenu',function() { return false; });
+});
+</script>
+
 {% if site.google-analytics %}
 {% include google-analytics.html %}
 {% endif %}
