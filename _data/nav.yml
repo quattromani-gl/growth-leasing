@@ -16,11 +16,8 @@
     - title: "Industry at Large"
       url: "industry/"
 
-- title: About Us
-  url: /about/
-
 - title: Privacy
   url: /privacy-policy/
 
-- title: Contact Us
-  url: /contact/
+- title: Terms
+  url: /terms-and-conditions/
