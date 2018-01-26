@@ -1,3 +1,6 @@
 # Add that trailing slash to avoid redirect
-- title: Sitemap
-  url: /sitemap/
+- title: Privacy
+  url: /privacy-policy/
+
+- title: Terms
+  url: /terms-and-conditions/

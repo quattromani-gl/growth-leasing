@@ -6,11 +6,9 @@
     {% if page.url contains link.url %}
       {% assign current = 'aria-current="page"' %}
     {% endif %}
-    {% if link.sublinks %}
     <li role="menuitem" itemprop="name" {{ current }}>
       <a href="{{ link.url | prepend: site.baseurl }}" itemprop="url">{{ link.title }}</a>
     </li>
-    {% endif %}
     {% endfor %}
   </ul>
 </nav>

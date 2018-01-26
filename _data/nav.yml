@@ -1,23 +1,13 @@
 # Add that trailing slash to avoid redirect
-- title: Categories
-  url: /categories/
-  aria-label:
-  sublinks:
-    - title: "Grow"
-      url: "grow/"
-    - title: "Extraction"
-      url: "extraction/"
-    - title: "Products"
-      url: "products/"
-    - title: "People"
-      url: "people/"
-    - title: "Business Development"
-      url: "business-development/"
-    - title: "Industry at Large"
-      url: "industry/"
-
-- title: Privacy
-  url: /privacy-policy/
-
-- title: Terms
-  url: /terms-and-conditions/
+- title: "Grow"
+  url: "grow/"
+- title: "Extraction"
+  url: "extraction/"
+- title: "Products"
+  url: "products/"
+- title: "People"
+  url: "people/"
+- title: "Business Development"
+  url: "business-development/"
+- title: "Industry at Large"
+  url: "industry/"
