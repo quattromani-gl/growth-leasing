@@ -54,24 +54,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/terms-and-conditions/</loc>
+      <loc>http://localhost:4000/growth-leasing/terms-and-conditions/</loc>
       
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/people/</loc>
-      
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -84,24 +69,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/industry/</loc>
+      <loc>http://localhost:4000/growth-leasing/people/</loc>
       
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/business-development/</loc>
-      
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -114,24 +84,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/thanks/</loc>
+      <loc>http://localhost:4000/growth-leasing/industry/</loc>
       
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/extraction/</loc>
-      
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -144,24 +99,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>http://localhost:4000/growth-leasing/business-development/</loc>
       
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/products/</loc>
-      
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -174,9 +114,69 @@
   
     
     <url>
-      <loc>http://localhost:4000/privacy-policy/</loc>
+      <loc>http://localhost:4000/growth-leasing/thanks/</loc>
       
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/growth-leasing/extraction/</loc>
+      
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/growth-leasing/</loc>
+      
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/growth-leasing/products/</loc>
+      
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/growth-leasing/privacy-policy/</loc>
+      
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -191,9 +191,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/grow/</loc>
+      <loc>http://localhost:4000/growth-leasing/grow/</loc>
       
-        <lastmod>2018-01-29T11:13:47-07:00</lastmod>
+        <lastmod>2018-01-29T11:20:13-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

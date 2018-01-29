@@ -4,7 +4,7 @@ email: hello@growthleasing.com
 url: https://growthleasing.com
 enforce_ssl: growthleasing.com
 description:
-baseurl:
+baseurl: /growth-leasing
 logo: "logo.png"
 version: 0.0.1
 author: "Max Quattromani"
