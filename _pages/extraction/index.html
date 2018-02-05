@@ -5,17 +5,6 @@ class: extraction
 parent:
 description:
 categories:
-
-carousel:
-  - 1-min.png
-  - 2-min.png
-  - 3-min.png
-  - 4-min.png
-  - 5-min.png
-  - 6-min.png
-  - 7-min.png
-  - 8-min.png
-  - 9-min.png
 ---
 
 <h1>{{ page.title }}</h1>
@@ -27,12 +16,13 @@ carousel:
 <hr>
 
 <div class="page-carousel">
-  {% assign num = 0 %}
-  {% for img in page.carousel %}
-  {% assign num = num | plus:1 %}
+  {% for image in site.data.extraction %}
   <div>
-    <figure id="{{ num }}" class="modal-button" arial-controls="modal{{ num }}">
-      <img src="{{ site.baseurl }}/images/{{ page.class }}/{{ img }}" alt="{{ page.title }} property shot">
+    <figure>
+      <figcaption>
+        {{ image.figcaption }}
+      </figcaption>
+      <img src="{{ site.baseurl }}/images/{{ page.class }}/{{ image.img }}" alt="{{ image.figcaption }}">
     </figure>
   </div>
   {% endfor %}
