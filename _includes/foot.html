@@ -15,28 +15,8 @@
   $(function() {
     $('video').bind('contextmenu',function() { return false; });
   });
-
-  $(function(){
-    if ($.cookie('access') == "no") {
-      $("body").addClass("access");
-    }
-  });
 </script>
-<script>
-  $(function(){
 
-    $("#switch").click(function () {
-      if ($.cookie('access') == "undefined" || $.cookie('access') == "no") {
-        $.cookie('access','yes', {expires: 7, path: '/'});
-        $("body").addClass("access");
-      }
-      else {
-        $.cookie('access','no',  {expires: 7, path: '/'});
-        $("body").removeClass("access");
-      }
-    });
-  });
-</script>
 
 {% if site.google-analytics %}
 {% include google-analytics.html %}
