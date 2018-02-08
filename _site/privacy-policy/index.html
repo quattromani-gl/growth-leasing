@@ -463,6 +463,57 @@ GROWTHLEASING.COM complies with the EU-US Privacy Shield Framework as set forth 
 </script>
 
 
+<script>
+  $(function() {
+  var modal = document.getElementById( "gate" );
+
+  window.onclick = function( event ) {
+    if ( event.target == modal ) {
+      modal.style.display = "none";
+    }
+  }
+
+  var is_logged_in = function() {
+    if ( cookie( "access" ) ) {
+      $( "body" ).addClass( "access" );
+      $( ".not-logged-in" ).css("display","none");
+    } else {
+      $( "body" ).removeClass( "access" );
+      $( ".not-logged-in" ).css("display","block");
+    }
+  }
+
+  $( "#gate-form" ).on( "submit", function( e ) {
+
+    var uname = $( "[name='uname']" ).val();
+    var psw = $( "[name='psw']" ).val();
+
+    $.ajax({
+      url: "/users.json",
+      dataType: "JSON",
+
+      success: function( data ) {
+        for ( var i = 0; i < data.length; i++ ) {
+          if ( data[i].username === uname && data[i].password === psw ) {
+            cookie( "access", "yes", {expires: 7, path:"/"} );
+            is_logged_in();
+          } else {
+            cookie( "access", "no",  {expires: 7, path: "/"} );
+          }
+        }
+      },
+      error: function ( err ) {
+        console.error( err );
+      }
+    });
+
+    e.preventDefault();
+  });
+
+  is_logged_in();
+});
+</script>
+
 
 
 
