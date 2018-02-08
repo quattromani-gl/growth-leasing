@@ -1,26 +1,35 @@
-- img: 1-min.png
-  figcaption: "Beginning Phase 2 of Construction"
-- img: 2-min.png
-  figcaption: "Completing Phase 1 of Construction"
-- img: 3-min.png
-  figcaption: "Completing Phase 1 of Construction"
-- img: 4-min.png
-  figcaption: "Completing Phase 2"
-- img: 5-min.png
-  figcaption: "Completing the Foundation and Hoop House Work"
 - img: 6-min.png
   figcaption: "Extraction Site Pre-Construction"
-- img: 7-min.jpg
-  figcaption: "Freezer - Post Harvest"
-- img: 8-min.png
-  figcaption: "Installation of the Freezers"
+
 - img: 9-min.png
   figcaption: "Packaging Building and Beginning Foundation Work"
-- img: 10-min.png
-  figcaption: "Work Inside the Facility"
+
+- img: 5-min.png
+  figcaption: "Completing the Foundation and Hoop House Work"
+
+- img: 8-min.png
+  figcaption: "Installation of the Freezers"
+
+- img: 2-min.png
+  figcaption: "Completing Phase 1 of Construction"
+
+- img: 3-min.png
+  figcaption: "Completing Phase 1 of Construction"
+
+- img: 1-min.png
+  figcaption: "Beginning Phase 2 of Construction"
+
+- img: 4-min.png
+  figcaption: "Completing Phase 2"
+
 - img: 11-min.jpg
   figcaption: "Completing Phase 2 of Construction"
-- img: 12-min.jpg
-  figcaption: "Inside The Hoop House"
+
+- img: 10-min.png
+  figcaption: "Work Inside the Facility"
+
 - img: 13-min.jpg
   figcaption: "Storage Freezers, Post-Harvest"
+
+- img: 12-min.jpg
+  figcaption: "Inside The Hoop House"

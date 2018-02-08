@@ -1,28 +1,38 @@
-- img: 1-min.png
-  figcaption: "Aerial Photo - Flat Roof Retractable Greenhouse"
 - img: 2-min.png
   figcaption: "Flat Roof Retractable Greenhouse - June"
-- img: 3-min.png
-  figcaption: "Flat Roof Retractable Greenhouse - Mid October"
-- img: 4-min.png
-  figcaption: "Harvest - Cold Frame Greenhouses"
-- img: 5-min.png
-  figcaption: "Harvest - Flat Roof Retractable Greenhouse"
-- img: 6-min.jpg
-  figcaption: "Cold Frame Greenhouse - October"
-- img: 7-min.jpg
-  figcaption: "Cold Frame Greenhouse - October"
+
+- img: 1-min.png
+  figcaption: "Aerial Photo - Flat Roof Retractable Greenhouse"
+
 - img: 8-min.png
   figcaption: "Cold Frame Greenhouses - August"
-- img: 9-min.jpg
-  figcaption: "Cold Frame Greenhouses - October"
-- img: 10-min.jpg
-  figcaption: "Cold Frame Greenhouses - September"
-- img: 11-min.jpg
-  figcaption: "Flat Roof Retractable Greenhouse - Mid September"
-- img: 12-min.jpg
-  figcaption: "Flat Roof Retractable Greenhouse - October"
+
 - img: 13-min.jpg
   figcaption: "Flat Roof Retractable Greenhouse - September"
+
+- img: 11-min.jpg
+  figcaption: "Flat Roof Retractable Greenhouse - Mid September"
+
+- img: 12-min.jpg
+  figcaption: "Flat Roof Retractable Greenhouse - October"
+
+- img: 6-min.jpg
+  figcaption: "Cold Frame Greenhouse - October"
+
+- img: 9-min.jpg
+  figcaption: "Cold Frame Greenhouses - October"
+
+- img: 7-min.jpg
+  figcaption: "Cold Frame Greenhouse - October"
+
+- img: 3-min.png
+  figcaption: "Flat Roof Retractable Greenhouse - Mid October"
+
+- img: 4-min.png
+  figcaption: "Harvest - Cold Frame Greenhouses"
+
+- img: 5-min.png
+  figcaption: "Harvest - Flat Roof Retractable Greenhouses"
+
 - img: 14-min.jpg
   figcaption: "Post-Harvest Drying"
