@@ -322,6 +322,15 @@ We have completed Phase One of our processing facility, which consisted of the h
     </figure>
   </div>
   
+  <div>
+    <figure>
+      <figcaption>
+        Post-Harvest Drying
+      </figcaption>
+      <img src="/images/extraction/14-min.jpg" alt="Post-Harvest Drying">
+    </figure>
+  </div>
+  
 </div>
 
 
@@ -473,10 +482,10 @@ We have completed Phase One of our processing facility, which consisted of the h
       success: function( data ) {
         for ( var i = 0; i < data.length; i++ ) {
           if ( data[i].username === uname && data[i].password === psw ) {
-            cookie( "access", "yes", {expires: 7, path:"/"} );
+            cookie( "access", "yes", {expires: 0, path:"/"} );
             is_logged_in();
           } else {
-            cookie( "access", "no",  {expires: 7, path: "/"} );
+            cookie( "access", "no",  {expires: 0, path: "/"} );
           }
         }
       },

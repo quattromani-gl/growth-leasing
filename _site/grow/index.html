@@ -39,11 +39,24 @@
   <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="white">
   <meta name="apple-mobile-web-app-title" content="Growth Leasing">
   
-  <meta name="description" content="Grow
+  <meta name="description" content="
+  
+  
+    
+    
+    
+    
+    
+  
 
 
 
-We concluded a successful ’17 grow season at our Grandview facility and we now have over 7,000 pounds of cleaned, cured, and now frozen, ca...">
+
+Grow
+
+
+
+We concluded a successful ’17 grow season at our Grandview facility and we now have over 7,000 pound...">
   
   
   <link rel="canonical" href="http://localhost:4000/grow/">
@@ -202,6 +215,19 @@ We concluded a successful ’17 grow season at our Grandview facility and we now
   <main id="content" role="main" class="grow">
 
 
+<video controls="controls" height="auto" controlsList="nodownload" autoplay>
+  <source src="/video/Drone-Video.mp4" />
+  <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+    <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+    <param name="allowFullScreen" value="true" />
+    <param name="wmode" value="transparent" />
+    <param name="flashVars" value="config={'playlist':['/images/grow/1.png',{'url':'/video/Drone-Video.mp4','autoPlay':false}]}" />
+    <img alt="Grow Operations" src="/images/grow/1.png" width="640" height="360" title="No video playback capabilities, please download the video below" />
+  </object>
+</video>
+
+<hr>
+
 <h1>Grow</h1>
 
 <hr>
@@ -320,29 +346,7 @@ We concluded a successful ’17 grow season at our Grandview facility and we now
     </figure>
   </div>
   
-  <div>
-    <figure>
-      <figcaption>
-        Post-Harvest Drying
-      </figcaption>
-      <img src="/images/grow/14-min.jpg" alt="Post-Harvest Drying">
-    </figure>
-  </div>
-  
 </div>
-
-<hr>
-
-<video controls="controls" height="auto" controlsList="nodownload">
-  <source src="/video/Drone-Video.mp4" />
-  <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
-    <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-    <param name="allowFullScreen" value="true" />
-    <param name="wmode" value="transparent" />
-    <param name="flashVars" value="config={'playlist':['/images/grow/1.png',{'url':'/video/Drone-Video.mp4','autoPlay':false}]}" />
-    <img alt="Grow Operations" src="/images/grow/1.png" width="640" height="360" title="No video playback capabilities, please download the video below" />
-  </object>
-</video>
 
 
         </main>
@@ -493,10 +497,10 @@ We concluded a successful ’17 grow season at our Grandview facility and we now
       success: function( data ) {
         for ( var i = 0; i < data.length; i++ ) {
           if ( data[i].username === uname && data[i].password === psw ) {
-            cookie( "access", "yes", {expires: 7, path:"/"} );
+            cookie( "access", "yes", {expires: 0, path:"/"} );
             is_logged_in();
           } else {
-            cookie( "access", "no",  {expires: 7, path: "/"} );
+            cookie( "access", "no",  {expires: 0, path: "/"} );
           }
         }
       },

@@ -398,10 +398,10 @@ echo $now->format('Y-m-d H:i:s'); ?></time>
       success: function( data ) {
         for ( var i = 0; i < data.length; i++ ) {
           if ( data[i].username === uname && data[i].password === psw ) {
-            cookie( "access", "yes", {expires: 7, path:"/"} );
+            cookie( "access", "yes", {expires: 0, path:"/"} );
             is_logged_in();
           } else {
-            cookie( "access", "no",  {expires: 7, path: "/"} );
+            cookie( "access", "no",  {expires: 0, path: "/"} );
           }
         }
       },

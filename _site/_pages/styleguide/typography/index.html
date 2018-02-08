@@ -359,7 +359,7 @@ Fonts
         <code>&lt;tel&gt;</code> - <a class="tel" href="tel:+18008519530">1-800-851-9530</a>
       </li>
       <li>
-        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate="">07 Feb 2018</time>
+        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate="">08 Feb 2018</time>
       </li>
       <li>
         <code>&lt;blockquote&gt;</code>
@@ -2062,10 +2062,10 @@ Fonts
       success: function( data ) {
         for ( var i = 0; i < data.length; i++ ) {
           if ( data[i].username === uname && data[i].password === psw ) {
-            cookie( "access", "yes", {expires: 7, path:"/"} );
+            cookie( "access", "yes", {expires: 0, path:"/"} );
             is_logged_in();
           } else {
-            cookie( "access", "no",  {expires: 7, path: "/"} );
+            cookie( "access", "no",  {expires: 0, path: "/"} );
           }
         }
       },
