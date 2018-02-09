@@ -500,6 +500,7 @@ GROWTHLEASING.COM complies with the EU-US Privacy Shield Framework as set forth 
           if ( data[i].username === uname && data[i].password === psw ) {
             cookie( "access", "yes", {expires: 0, path:"/"} );
             is_logged_in();
+            window.location.replace("/grow");
 
             if (request) {
               request.abort();
