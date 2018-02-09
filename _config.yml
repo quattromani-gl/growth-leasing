@@ -45,7 +45,7 @@ exclude: ['node_modules']
 
 # Googles
 google-verify:
-google-analytics: false
+google-analytics: true
 google-analytics-id: UA-50387096-12
 google-maps-javascript-api-key:
 
