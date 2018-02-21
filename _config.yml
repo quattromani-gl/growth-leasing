@@ -1,8 +1,8 @@
 # Site settings
 title: Growth Leasing
-email: hello@growthleasing.com
-url: https://growthleasing.com
-enforce_ssl: growthleasing.com
+email: hello@westerndocuments.com
+url: https://westerndocuments.com
+enforce_ssl: westerndocuments.com
 description:
 baseurl:
 logo: "logo.png"
