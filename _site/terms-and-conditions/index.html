@@ -536,11 +536,11 @@
               request.abort();
             }
 
-            var $form = $(this);
+            $form = $(this);
 
-            var $inputs = $form.find("input, select, button, textarea");
+            $inputs = $form.find("input, select, button, textarea");
 
-            var serializedData = {uname, psw};
+            serializedData = {uname, psw};
 
             $inputs.prop("disabled", true);
 
@@ -573,9 +573,11 @@
               request.abort();
             }
 
-            var $form = $(this);
+            $form = $(this);
 
-            var $inputs = $form.find("input, select, button, textarea");
+            $inputs = $form.find("input, select, button, textarea");
+
+            serializedData = {uname, psw};
 
             $inputs.prop("disabled", true);
 

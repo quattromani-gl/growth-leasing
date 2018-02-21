@@ -1876,11 +1876,11 @@ Font Awesome is employed for scalable vector icons that can be customized — si
               request.abort();
             }
 
-            var $form = $(this);
+            $form = $(this);
 
-            var $inputs = $form.find("input, select, button, textarea");
+            $inputs = $form.find("input, select, button, textarea");
 
-            var serializedData = {uname, psw};
+            serializedData = {uname, psw};
 
             $inputs.prop("disabled", true);
 
@@ -1913,9 +1913,11 @@ Font Awesome is employed for scalable vector icons that can be customized — si
               request.abort();
             }
 
-            var $form = $(this);
+            $form = $(this);
 
-            var $inputs = $form.find("input, select, button, textarea");
+            $inputs = $form.find("input, select, button, textarea");
+
+            serializedData = {uname, psw};
 
             $inputs.prop("disabled", true);
 

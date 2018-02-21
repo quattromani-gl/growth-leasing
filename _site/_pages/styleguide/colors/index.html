@@ -484,11 +484,11 @@ Style Guide colors are variablized in _vars.scss - colors are shown with 10% lig
               request.abort();
             }
 
-            var $form = $(this);
+            $form = $(this);
 
-            var $inputs = $form.find("input, select, button, textarea");
+            $inputs = $form.find("input, select, button, textarea");
 
-            var serializedData = {uname, psw};
+            serializedData = {uname, psw};
 
             $inputs.prop("disabled", true);
 
@@ -521,9 +521,11 @@ Style Guide colors are variablized in _vars.scss - colors are shown with 10% lig
               request.abort();
             }
 
-            var $form = $(this);
+            $form = $(this);
 
-            var $inputs = $form.find("input, select, button, textarea");
+            $inputs = $form.find("input, select, button, textarea");
+
+            serializedData = {uname, psw};
 
             $inputs.prop("disabled", true);
 
