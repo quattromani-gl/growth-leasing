@@ -507,45 +507,7 @@
             });
 
           } else {
-            cookie( "access", "yes", 0.04166666667 );
-            is_logged_in();
-            window.location.replace("/grow");
-
-            if (request) {
-              request.abort();
-            }
-
-            var $form = $(this);
-
-            var $inputs = $form.find("input, select, button, textarea");
-
-            var serializedData = {uname, psw};
-
-            $inputs.prop("disabled", true);
-
-            request = $.ajax({
-              url: "https://script.google.com/a/maxquattromani.com/macros/s/AKfycbyG5WpyQciw-6TqNwCa0ZbHsX-jIjzL1PzAIdIO3XjpEQbHx2A/exec",
-              type: "get",
-              data: serializedData
-            });
-
-            request.done(function (response, textStatus, jqXHR){
-              console.log("Hooray, it worked!");
-              console.log(response);
-              console.log(textStatus);
-              console.log(jqXHR);
-            });
-
-            request.fail(function (jqXHR, textStatus, errorThrown){
-              console.error(
-                "The following error occurred: "+
-                textStatus, errorThrown
-                );
-            });
-
-            request.always(function () {
-              $inputs.prop("disabled", false);
-            });
+            cookie( "no-access", "yes" );
           }
         }
       },
