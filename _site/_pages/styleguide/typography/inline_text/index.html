@@ -442,7 +442,7 @@ echo $now->format('Y-m-d H:i:s'); ?></time>
             });
 
           } else {
-            cookie( "access", "no",  {expires: 0, path: "/"} );
+            cookie( "access", false );
           }
         }
       },
