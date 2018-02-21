@@ -1,3 +1,9 @@
+---
+layout: null
+sitemap: exclude
+search: exclude
+---
+
 [
   {
     "username": "GLISAdmin",

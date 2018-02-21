@@ -390,7 +390,7 @@ Branded-CO2 BHO extracts and distillates in 3 product lines
       success: function( data ) {
         for ( var i = 0; i < data.length; i++ ) {
           if ( data[i].username === uname && data[i].password === psw ) {
-            cookie( "access", "yes", {expires: 0, path:"/"} );
+            cookie( "access", "yes", {expires: 0.04166666667, path:"/"} );
             is_logged_in();
             window.location.replace("/grow");
 
