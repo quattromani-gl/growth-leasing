@@ -18,7 +18,7 @@
   <link href="https://www.google-analytics.com" rel="preconnect">
 
   <style>
-    {% include css/styles.css %}
+  {% include css/styles.css %}
   </style>
 
   <title>{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} - {% endif %}{{ site.title }}</title>
@@ -57,10 +57,6 @@
   <!-- End Google verification -->
   {% endif %}
 
-  {% if site.google-analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
-
 </head>
 
 <body>
@@ -70,6 +66,6 @@
   <div class="outer-wrapper">
     <div class="inner-wrapper">
 
-      {% include header.html %}
+  {% include header.html %}
 
-      <main id="content" role="main" class="{{ page.class }}">
+  <main id="content" role="main" class="{{ page.class }}">
