@@ -359,7 +359,7 @@ Fonts
         <code>&lt;tel&gt;</code> - <a class="tel" href="tel:+18008519530">1-800-851-9530</a>
       </li>
       <li>
-        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate="">21 Feb 2018</time>
+        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate="">22 Feb 2018</time>
       </li>
       <li>
         <code>&lt;blockquote&gt;</code>
@@ -1930,7 +1930,7 @@ Fonts
             <form id="gate-form" class="modal-content animate" autocomplete="on">
               <div class="container">
                 <label><b>Username</b></label>
-                <input id="username" type="text" autocomplete="username" placeholder="Enter Username" name="uname" required>
+                <input  id="username" type="text" autocomplete="username" placeholder="Enter Username" name="uname" required onblur="ga('send', 'pageview', 'access?username=' + this.value);" />
                 <br>
                 <label><b>Password</b></label>
                 <input id="password" type="password" autocomplete="current-password" placeholder="Enter Password" name="psw" required>
