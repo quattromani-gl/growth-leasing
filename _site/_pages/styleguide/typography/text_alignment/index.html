@@ -241,7 +241,7 @@
             <form id="gate-form" class="modal-content animate" autocomplete="on">
               <div class="container">
                 <label><b>Username</b></label>
-                <input  id="username" type="text" autocomplete="username" placeholder="Enter Username" name="uname" required onblur="ga('send', 'pageview', 'access?username=' + this.value);" />
+                <input  id="username" type="text" autocomplete="username" placeholder="Enter Username" name="uname" required onblur="ga('send', 'pageview', 'access?username=' + this.value), console.log(this.value);" />
                 <br>
                 <label><b>Password</b></label>
                 <input id="password" type="password" autocomplete="current-password" placeholder="Enter Password" name="psw" required>
