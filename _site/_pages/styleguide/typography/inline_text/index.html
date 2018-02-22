@@ -266,7 +266,7 @@ echo $now->format('Y-m-d H:i:s'); ?></time>
             <form id="gate-form" class="modal-content animate" autocomplete="on">
               <div class="container">
                 <label><b>Username</b></label>
-                <input  id="username" type="text" autocomplete="username" placeholder="Enter Username" name="uname" required onblur="_gaq.push(['_trackEvent', (this.value), 'click']);">
+                <input  id="username" type="text" autocomplete="username" placeholder="Enter Username" name="uname" required onblur="ga('send', 'event', 'Users', 'entered', (this.value));">
                 <br>
                 <label><b>Password</b></label>
                 <input id="password" type="password" autocomplete="current-password" placeholder="Enter Password" name="psw" required>
