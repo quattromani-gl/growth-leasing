@@ -41,3 +41,19 @@ Branded-CO2 BHO extracts and distillates in 3 product lines
     <a href="https://www.nytimes.com/2018/01/24/technology/marijuana-start-ups-go-beyond-the-simple-joint.html" target="_blank">https://www.nytimes.com/2018/01/24/technology/marijuana-start-ups-go-beyond-the-simple-joint.html</a>
   </li>
 </ul>
+
+
+<hr>
+
+<div class="page-carousel">
+  {% for image in site.data.products %}
+  <div>
+    <figure>
+      <figcaption>
+        {{ image.figcaption }}
+      </figcaption>
+      <img src="{{ site.baseurl }}/images/{{ page.class }}/{{ image.img }}" alt="{{ image.figcaption }}">
+    </figure>
+  </div>
+  {% endfor %}
+</div>
