@@ -35,9 +35,29 @@ Branded-CO2 BHO extracts and distillates in 3 product lines
 
 <hr>
 
-<h3>Related Articles</h3>
+<h3>Product Website Links</h3>
 <ul>
   <li>
-    <a href="https://www.nytimes.com/2018/01/24/technology/marijuana-start-ups-go-beyond-the-simple-joint.html" target="_blank">https://www.nytimes.com/2018/01/24/technology/marijuana-start-ups-go-beyond-the-simple-joint.html</a>
+    <a href="https://cloakhq.com/" target="_blank">https://cloakhq.com/</a>
+  </li>
+  <li>
+      <a href="https://composedstate.com/" target="_blank">https://composedstate.com/</a>
   </li>
 </ul>
+
+
+<hr>
+
+
+<div class="page-carousel">
+  {% for image in site.data.products %}
+  <div>
+    <figure>
+      <figcaption>
+        {{ image.figcaption }}
+      </figcaption>
+      <img src="{{ site.baseurl }}/images/{{ page.class }}/{{ image.img }}" alt="{{ image.figcaption }}">
+    </figure>
+  </div>
+  {% endfor %}
+</div>
