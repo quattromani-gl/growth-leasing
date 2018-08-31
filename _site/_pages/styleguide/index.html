@@ -144,6 +144,14 @@
       
       
       <li role="menuitem">
+        <a href="/index.html" itemprop="url" ><span itemprop="name">Home</span></a>
+      </li>
+      
+      
+      
+      
+      
+      <li role="menuitem">
         <a href="/grow/" itemprop="url" ><span itemprop="name">Grow</span></a>
       </li>
       
@@ -184,7 +192,7 @@
       
       
       <li role="menuitem">
-        <a href="/industry/" itemprop="url" ><span itemprop="name">Industry at Large</span></a>
+        <a href="/industry/" itemprop="url" ><span itemprop="name">Industry Issues</span></a>
       </li>
       
       
@@ -2955,7 +2963,7 @@ Codeguide         :: http://codeguide.co/
         <a href="https://twitter.com/maxquattromani"><h2>Follow Me <i class="fa fa-twitter"></i></h2></a>
       </header>
 
-      <p>Version: 0.0.1 -- Updated: 2018-08-30 16:39:08 -0600</p>
+      <p>Version: 0.0.1 -- Updated: 2018-08-30 20:34:17 -0600</p>
 
       <strong>FIN.</strong>
 
@@ -3174,7 +3182,7 @@ Codeguide         :: http://codeguide.co/
           if ( data[i].username === uname && data[i].password === psw ) {
             cookie( "access", "yes", 0.04166666667 );
             is_logged_in();
-            window.location.replace("/grow");
+            window.location.replace("/grow/");
 
             if (request) {
               request.abort();
