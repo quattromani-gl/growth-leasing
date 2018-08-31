@@ -146,6 +146,14 @@ Style Guide colors are variablized in _vars.scss - colors are shown with 10% lig
       
       
       <li role="menuitem">
+        <a href="/index.html" itemprop="url" ><span itemprop="name">Home</span></a>
+      </li>
+      
+      
+      
+      
+      
+      <li role="menuitem">
         <a href="/grow/" itemprop="url" ><span itemprop="name">Grow</span></a>
       </li>
       
@@ -186,7 +194,7 @@ Style Guide colors are variablized in _vars.scss - colors are shown with 10% lig
       
       
       <li role="menuitem">
-        <a href="/industry/" itemprop="url" ><span itemprop="name">Industry at Large</span></a>
+        <a href="/industry/" itemprop="url" ><span itemprop="name">Industry Issues</span></a>
       </li>
       
       
@@ -478,7 +486,7 @@ Style Guide colors are variablized in _vars.scss - colors are shown with 10% lig
           if ( data[i].username === uname && data[i].password === psw ) {
             cookie( "access", "yes", 0.04166666667 );
             is_logged_in();
-            window.location.replace("/grow");
+            window.location.replace("/");
 
             if (request) {
               request.abort();
