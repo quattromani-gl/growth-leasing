@@ -5,19 +5,6 @@
     
   
     
-    <url>
-      <loc>http://localhost:4000/grow/</loc>
-      
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
   
     
   
@@ -26,18 +13,7 @@
     
   
     
-    <url>
-      <loc>http://localhost:4000/grow/</loc>
-      
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
+  
     
   
     
@@ -80,7 +56,7 @@
     <url>
       <loc>http://localhost:4000/terms-and-conditions/</loc>
       
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -95,7 +71,7 @@
     <url>
       <loc>http://localhost:4000/people/</loc>
       
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -110,7 +86,7 @@
     <url>
       <loc>http://localhost:4000/industry/</loc>
       
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -125,7 +101,7 @@
     <url>
       <loc>http://localhost:4000/business-development/</loc>
       
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -140,37 +116,7 @@
     <url>
       <loc>http://localhost:4000/thanks/</loc>
       
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/products/</loc>
-      
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/</loc>
-      
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -185,7 +131,37 @@
     <url>
       <loc>http://localhost:4000/extraction/</loc>
       
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/</loc>
+      
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/products/</loc>
+      
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -200,7 +176,7 @@
     <url>
       <loc>http://localhost:4000/privacy-policy/</loc>
       
-        <lastmod>2018-08-30T20:34:17-06:00</lastmod>
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -214,9 +190,18 @@
     
   
     
-  
-    
-  
+    <url>
+      <loc>http://localhost:4000/grow/</loc>
+      
+        <lastmod>2018-02-22T16:06:55-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
     
   
     

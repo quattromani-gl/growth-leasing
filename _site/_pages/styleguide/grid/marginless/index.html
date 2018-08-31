@@ -164,14 +164,6 @@
       
       
       <li role="menuitem">
-        <a href="/index.html" itemprop="url" ><span itemprop="name">Home</span></a>
-      </li>
-      
-      
-      
-      
-      
-      <li role="menuitem">
         <a href="/grow/" itemprop="url" ><span itemprop="name">Grow</span></a>
       </li>
       
@@ -212,7 +204,7 @@
       
       
       <li role="menuitem">
-        <a href="/industry/" itemprop="url" ><span itemprop="name">Industry Issues</span></a>
+        <a href="/industry/" itemprop="url" ><span itemprop="name">Industry at Large</span></a>
       </li>
       
       
@@ -444,96 +436,40 @@
 <script src="/js/production.min.js" async></script>
 
 <script>
-  (function (factory) {
-    if (typeof define === 'function' && define.amd) {
-      define(['jquery'], factory);
-    } else if (typeof exports === 'object') {
-      module.exports = factory(require('jquery'));
-    } else {
-      factory(jQuery);
-    }
-  }(function ($) {
-
-    var pluses = /\+/g;
-
-    function encode(s) {
-      return config.raw ? s : encodeURIComponent(s);
-    }
-
-    function decode(s) {
-      return config.raw ? s : decodeURIComponent(s);
-    }
-
-    function stringifyCookieValue(value) {
-      return encode(config.json ? JSON.stringify(value) : String(value));
-    }
-
-    function parseCookieValue(s) {
-      if (s.indexOf('"') === 0) {
-        s = s.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+  /*! cookie function. get, set, or forget a cookie. [c]2014 @scottjehl, Filament Group, Inc. Licensed MIT */
+(function(w){
+  var cookie = function( name, value, days ){
+    // if value is undefined, get the cookie value
+    if( value === undefined ){
+      var cookiestring = "; " + w.document.cookie;
+      var cookies = cookiestring.split( "; " + name + "=" );
+      if ( cookies.length === 2 ){
+        return cookies.pop().split( ";" ).shift();
       }
-
-      try {
-        s = decodeURIComponent(s.replace(pluses, ' '));
-        return config.json ? JSON.parse(s) : s;
-      } catch(e) {}
+      return null;
     }
-
-    function read(s, converter) {
-      var value = config.raw ? s : parseCookieValue(s);
-      return $.isFunction(converter) ? converter(value) : value;
+    else {
+      // if value is a false boolean, we'll treat that as a delete
+      if( value === false ){
+        days = -1;
+      }
+      var expires = "";
+      if ( days ) {
+        var date = new Date();
+        date.setTime( date.getTime() + ( days * 24 * 60 * 60 * 1000 ) );
+        expires = "; expires="+date.toGMTString();
+      }
+      w.document.cookie = name + "=" + value + expires + "; path=/";
     }
-
-    var config = $.cookie = function (key, value, options) {
-
-      if (arguments.length > 1 && !$.isFunction(value)) {
-        options = $.extend({}, config.defaults, options);
-
-        if (typeof options.expires === 'number') {
-          var days = options.expires, t = options.expires = new Date();
-          t.setMilliseconds(t.getMilliseconds() + days * 864e+5);
-        }
-
-        return (document.cookie = [
-          encode(key), '=', stringifyCookieValue(value),
-          options.expires ? '; expires=' + options.expires.toUTCString() : '',
-          options.path    ? '; path=' + options.path : '',
-          options.domain  ? '; domain=' + options.domain : '',
-          options.secure  ? '; secure' : ''
-          ].join(''));
-      }
-
-      var result = key ? undefined : {},
-      cookies = document.cookie ? document.cookie.split('; ') : [],
-      i = 0,
-      l = cookies.length;
-
-      for (; i < l; i++) {
-        var parts = cookies[i].split('='),
-        name = decode(parts.shift()),
-        cookie = parts.join('=');
-
-        if (key === name) {
-          result = read(cookie, value);
-          break;
-        }
-
-        if (!key && (cookie = read(cookie)) !== undefined) {
-          result[name] = cookie;
-        }
-      }
-
-      return result;
-    };
-
-    config.defaults = {};
-
-    $.removeCookie = function (key, options) {
-      $.cookie(key, '', $.extend({}, options, { expires: -1 }));
-      return !$.cookie(key);
-    };
-
-  }));
+  };
+  // commonjs
+  if( typeof module !== "undefined" ){
+    module.exports = cookie;
+  }
+  else {
+    w.cookie = cookie;
+  }
+}( typeof global !== "undefined" ? global : this ));
 </script>
 
 
@@ -574,7 +510,7 @@
           if ( data[i].username === uname && data[i].password === psw ) {
             cookie( "access", "yes", 0.04166666667 );
             is_logged_in();
-            window.location.replace("/grow/");
+            window.location.replace("/grow");
 
             if (request) {
               request.abort();
