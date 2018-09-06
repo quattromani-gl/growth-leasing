@@ -18,3 +18,17 @@ traffic and detail why carrying our products can improve that number. Our relati
 Leasing uses the data to accelerate sales. 
 </p>
 
+<br>
+
+<div class="page-carousel">
+  {% for image in site.data.datatab %}
+  <div>
+    <figure>
+      <figcaption>
+        {{ image.figcaption }}
+      </figcaption>
+      <img src="{{ site.baseurl }}/images/{{ page.class }}/{{ image.img }}" alt="{{ image.figcaption }}">
+    </figure>
+  </div>
+  {% endfor %}
+</div>
