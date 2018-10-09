@@ -437,7 +437,8 @@ search: exclude
    "username": "GLIS6258",
    "password": "5867784"
   },
-  {"username": "GLIS9785",
+  {
+   "username": "GLIS9785",
    "password": "7596233"
   } 
 ]
